@@ -1,0 +1,9 @@
+There are 4 methods to link files.
+
+(1). include 'test.php';
+(2). include_once 'test.php';
+(3). require 'test.php';
+(4). require_once 'test.php';
+
+if the file that you want to link(in this case test.php) is reside within another folder, then you have to specifically mention the path to that file in the include or require field.
+ex :- include 'foldername/test.php';
