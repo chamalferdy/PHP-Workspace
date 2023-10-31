@@ -18,13 +18,18 @@ include '001_visibility.php';
     $person1 = new Person();
     $child1 = new Child();
     $pet1 = new Pet();
-    echo $child1->childinfo() . "<br>";
-    echo $animal1->info() . "<br>";
-    // echo $person1->name . "<br>";
+
+    //echo $person1->name . "<br>";
     echo $person1->civilStatus . "<br>";
     echo $person1->info() . "<br>";
+    echo $child1->childinfo() . "<br>";
+    //
+    echo $animal1->info() . "<br>";
     echo $pet1->petinfo() . "<br>";
     echo $pet1->name;
+    //
+    // $obj2 = new Person(); // can't access.
+    // echo $obj2->age;
 
     ?>
 </body>

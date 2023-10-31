@@ -2,7 +2,7 @@
 // possibility of having more than 1 classes in 1 document.
 class Person
 {
-    private $age = 23;
+    private $age = 23; // whether a property is private/protected doesn't matter, those can't be accessed normally outside the class.
     protected $name  = "chamal";
     public $civilStatus = "Unmarried.";
 

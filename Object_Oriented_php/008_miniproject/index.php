@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,12 +12,7 @@
 </head>
 
 <body>
-    <?php
-    $firstName = "First ";
-    $lastName = "Last";
-    $fullName = $firstName . $lastName;
-    echo $fullName;
-    ?>
+
 </body>
 
 </html>

@@ -1,5 +1,5 @@
 <?php
-require 'other.php';
+include 'other.php';
 ?>
 
 <!DOCTYPE html>

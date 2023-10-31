@@ -8,3 +8,4 @@ class NewClass
 
 $object = new NewClass;
 var_dump($object); // print out everything in the class from the object.
+echo "<br>";

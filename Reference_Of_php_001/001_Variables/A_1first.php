@@ -1,4 +1,5 @@
 <?php
+// if there exist only php content in a file then there will be no closing tag for that php file.
 echo "hello world <br>";
 echo "This is my very first php program <!DOCTYPE html> ";
 
