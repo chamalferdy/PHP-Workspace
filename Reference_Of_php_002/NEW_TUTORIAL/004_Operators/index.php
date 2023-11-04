@@ -40,11 +40,13 @@
     $a = 4;
     $b = "9";
     if ($a === $b) {
+        // like in javascript.
         echo "This statement is true";
         echo "<br>";
     } else {
         echo "This statement is not true";
     }
+    // This will actually work for !== as well.and there exist == and !=
 
     if ($a <> $b) {
         echo "<br>";
@@ -61,7 +63,7 @@
     if ($a == $b or $c == $d) {
         echo "This statement is true!";
     }
-
+    // instead u can use these signs.
     if ($a == $b || $c == $d && $a == $c) {
         echo "This statement is true!";
     }
@@ -70,8 +72,13 @@
     // Increment/Decrement Operators
     $a = 1;
     $b = 9;
+    echo $a++;
+    echo $a;
     echo ++$a;
+    echo $a;
     echo $b--;
+    echo $b;
+    echo --$b;
     echo $b;
     ?>
 </body>
