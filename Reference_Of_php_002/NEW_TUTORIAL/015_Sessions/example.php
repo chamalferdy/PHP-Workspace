@@ -1,5 +1,7 @@
 <?php
+session_start();
 
+unset($_SESSION["username"]);
 ?>
 
 <!DOCTYPE html>
@@ -12,7 +14,9 @@
 </head>
 
 <body>
-
+    <?php
+    echo $_SESSION["username"];
+    ?>
 </body>
 
 </html>

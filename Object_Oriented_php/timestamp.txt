@@ -1,1 +1,0 @@
-revise the 08th video - static properties and methods.

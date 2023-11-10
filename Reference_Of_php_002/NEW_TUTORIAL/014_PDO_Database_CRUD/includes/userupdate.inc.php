@@ -8,13 +8,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     try {
         require_once "dbh.inc.php";
 
-        $query = "UPDATE user SET username = ':username',pwd=':pwd',email=':email' WHERE id = 2 ;";
+        $query = "UPDATE users SET username = :username,pwd =:pwd,email=:email WHERE id = 2 ;"; // this is not dynamic, it's hard coded.
+
         $stmt = $pdo->prepare($query);
+
         $stmt->bindParam(":username", $username);
         $stmt->bindParam(":pwd", $pwd);
         $stmt->bindParam(":email", $email);
 
         $stmt->execute();
+
         $pdo = null;
         $stmt = null;
         header("Location: ../index.php");

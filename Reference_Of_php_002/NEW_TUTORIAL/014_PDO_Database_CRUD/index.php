@@ -15,6 +15,21 @@
         <input type="password" name="pwd" placeholder="Password">
         <input type="text" name="email" placeholder="E-Mail">
         <button>SignUp</button>
+        <hr>
+        <div>
+            <p><b>Want to update Data?</b></p>
+            <button><a href="update.php">Update</a></button>
+        </div>
+        <hr>
+        <div>
+            <p><b>Delete your account?</b></p>
+            <button><a href="delete.php">Delete</a></button>
+        </div>
+        <hr>
+        <div>
+            <p><b>Search</b></p>
+            <button><a href="search.php">Search</a></button>
+        </div>
     </form>
 </body>
 
