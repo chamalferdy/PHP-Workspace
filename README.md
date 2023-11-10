@@ -1,2 +1,3 @@
 # php-workspace
-basic exercises in php with object oriented programming concepts.
+
+Basic Syntax of php along with database connections to handle a php application.
