@@ -27,8 +27,12 @@ require_once "config.php";
  * 
  * It's a good practice that whenever you have anything to do with sessions it's very important to always validate and sanitize user data. Make sure not to include any kind of sensitive data inside a session variable. 
  * 
+ * If there are unnecessary session data then you may delete those bcz you don't need them anymore.
+ * 
  * Security vs Convinience of user.
  * 
+ * One of the settings which is in the ini file that can changed by code is,
  * session use only cookies - make sure that any session ID can only pass using session cookies and not by using the url of your website.
+ * 
  */
 ?>
