@@ -32,6 +32,7 @@ $total = null;
 // can use round function to a specific no of digits to round off. Ex :- round($x,3);(upto 3 digits.)
 // $total = floor($x); // floor function.
 // $total = ceil($x); // ceil function
+// $totoal = sqrt($x);
 // $total = pow($x, $y);
 // $total = max($x, $y, $z);
 // $total = min($x, $y, $z);

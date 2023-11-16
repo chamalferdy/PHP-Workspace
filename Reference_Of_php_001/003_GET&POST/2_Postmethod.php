@@ -1,7 +1,7 @@
 <!-- 
 $_GET , $_POST =   special variables(super global variables) used to collect data from an HTML form 
                    data is sent to the file  in the action attribute of <form> <form action = "some_file.php" method="get">
-
+                    
 $_GET =  Data is appended to the url
             NOT SECURE
             char limit 
@@ -15,7 +15,7 @@ $_POST = Data is packaged inside the body of the HTTP request
             Cannot bookmark 
             GET requests are not cached 
             Better for submitting credentials 
-        
+
 -->
 
 <!DOCTYPE html>
